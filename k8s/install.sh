@@ -1,6 +1,22 @@
 #!/bin/bash
 echo "This recipe setsup a k8s cluster w/ calico"
 
+echo $1 $2 $3
+echo $1 $2 $3
+echo $1 $2 $3
+echo $1 $2 $3
+echo $1 $2 $3
+echo $1 $2 $3
+echo $1 $2 $3
+echo $1 $2 $3
+echo $1 $2 $3
+echo $1 $2 $3
+
+exit
+
+
+
+
 function setup() {
     update-alternatives --set iptables /usr/sbin/iptables-legacy
     sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
